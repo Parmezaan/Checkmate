@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px; /* Šířka odpovídá šířce všech boxů */
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box; /* Zajistí, že padding a border jsou součástí šířky a výšky */
+}
+
+.box1, .box3, .box5, .box7, .box9, .box11, .box13, .box15, .box17, .box19, .box21, .box23, .box25, .box27, .box29, .box31, .box33, .box35, .box37, .box39, .box41, .box43, .box45, .box47, .box49, .box51, .box53, .box55, .box57, .box59, .box61, .box63 {
+    background-color: rgb(212, 121, 68);
+}
+
+.box2, .box4, .box6, .box8, .box10, .box12, .box14, .box16, .box18, .box20, .box22, .box24, .box26, .box28, .box30, .box32, .box34, .box36, .box38, .box40, .box42, .box44, .box46, .box48, .box50, .box52, .box54, .box56, .box58, .box60, .box62, .box64 {
+    background-color: rgb(255, 193, 143);
+}

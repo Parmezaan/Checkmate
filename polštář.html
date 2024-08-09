@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+    </style>
+    <link rel="stylesheet" href="peřina.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <!--lukaspapariga@gmail.com /-->
+    <div class="bigbox">
+        <div class="box1"><img id="pa" src="br.png" alt="BR"></div>
+        <div class="box2"><img id="pb" src="bp.png" alt="BP"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+        <div class="box7"><img id="pc" src="wp.png" alt="WP"></div>
+        <div class="box8"><img id="pd" src="wr.png" alt="WR"></div>
+
+        <div class="box9"> <img id="pe" src="bn.png" alt="BN"></div>
+        <div class="box10"> <img id="pf" src="bp.png" alt="BP"></div>
+        <div class="box11"></div>
+        <div class="box12"></div>
+        <div class="box13"></div>
+        <div class="box14"></div>
+        <div class="box15"> <img id="pg" src="wp.png" alt="WP"></div>
+        <div class="box16"> <img id="ph" src="wn.png" alt="WR"></div>
+
+        <div class="box17"> <img id="pch" src="bb.png" alt="BB"></div>
+        <div class="box18"> <img id="pi" src="bp.png" alt="BP"></div>
+        <div class="box19"></div>
+        <div class="box20"></div>
+        <div class="box21"></div>
+        <div class="box22"></div>
+        <div class="box23"> <img id="pj" src="wp.png" alt="WP"></div>
+        <div class="box24"> <img id="pk" src="wb.png" alt="WB"></div>
+
+        <div class="box25"> <img id="pl" src="bq.png" alt="BQ"></div>
+        <div class="box26"> <img id="pm" src="bp.png" alt="BP"></div>
+        <div class="box27"></div>
+        <div class="box28"></div>
+        <div class="box29"></div>
+        <div class="box30"></div>
+        <div class="box31"> <img id="pn" src="wp.png" alt="WP"></div>
+        <div class="box32"> <img id="pr" src="wq.png" alt="WQ"></div>
+
+        <div class="box33"> <img id="po" src="bk.png" alt="BK"></div>
+        <div class="box34"> <img id="pp" src="bp.png" alt="BP"></div>
+        <div class="box35"></div>
+        <div class="box36"></div>
+        <div class="box37"></div>
+        <div class="box38"></div>
+        <div class="box39"> <img id="pq" src="wp.png" alt="WP"></div>
+        <div class="box40"> <img id="ps" src="wk.png" alt="WK"></div>
+
+        <div class="box41"> <img id="pt"  src="bb.png" alt="BB"></div>
+        <div class="box42"> <img id="pu" src="bp.png" alt="BP"></div>
+        <div class="box43"></div>
+        <div class="box44"></div>
+        <div class="box45"></div>
+        <div class="box46"></div>
+        <div class="box47"> <img id="pv" src="wp.png" alt="WP"></div>
+        <div class="box48"> <img id="pw" src="wb.png" alt="WB"></div>
+
+        <div class="box49"> <img id="py" src="bn.png" alt="BN"></div>
+        <div class="box50"> <img id="px" src="bp.png" alt="BP"></div>
+        <div class="box51"></div>
+        <div class="box52"></div>
+        <div class="box53"></div>
+        <div class="box54"></div>
+        <div class="box55"> <img id="pz" src="wp.png" alt="WP"></div>
+        <div class="box56"> <img id="pae" src="wn.png" alt="WN"></div>
+
+        <div class="box57"> <img id="paa" src="br.png" alt="BR"></div>
+        <div class="box58"> <img id="pab" src="bp.png" alt="BP"></div>
+        <div class="box59"></div>
+        <div class="box60"></div>
+        <div class="box61"></div>
+        <div class="box62"></div>
+        <div class="box63"> <img id="pac" src="wp.png" alt="WP"></div>
+        <div class="box64"> <img id="pad" src="wr.png" alt="WR"></div>
+    </div>
+    <div class="kus1"></div>
+    <div class="kus2"></div>
+    <div class="kus3"> <img src="zlato.webp" alt="gold"></div>
+    <script>
+        dragElement(document.getElementById("pa"));
+        dragElement(document.getElementById("pb"));
+        dragElement(document.getElementById("pc"));
+        dragElement(document.getElementById("pd"));
+        dragElement(document.getElementById("pe"));
+        dragElement(document.getElementById("pf"));
+        dragElement(document.getElementById("pg"));
+        dragElement(document.getElementById("ph"));
+        dragElement(document.getElementById("pch"));
+        dragElement(document.getElementById("pi"));
+        dragElement(document.getElementById("pj"));
+        dragElement(document.getElementById("pk"));
+        dragElement(document.getElementById("pl"));
+        dragElement(document.getElementById("pm"));
+        dragElement(document.getElementById("pn"));
+        dragElement(document.getElementById("po"));
+        dragElement(document.getElementById("pp"));
+        dragElement(document.getElementById("pq"));
+        dragElement(document.getElementById("pr"));
+        dragElement(document.getElementById("ps"));
+        dragElement(document.getElementById("pt"));
+        dragElement(document.getElementById("pu"));
+        dragElement(document.getElementById("pv"));
+        dragElement(document.getElementById("pw"));
+        dragElement(document.getElementById("px"));
+        dragElement(document.getElementById("py"));
+        dragElement(document.getElementById("pz"));
+        dragElement(document.getElementById("paa"));
+        dragElement(document.getElementById("pab"));
+        dragElement(document.getElementById("pac"));
+        dragElement(document.getElementById("pad"));
+        dragElement(document.getElementById("pae"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+    </script>
+</body>
+
+</html>
